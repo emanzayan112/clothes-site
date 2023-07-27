@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap");
+
+:root {
+  --lg-font: "Kaisei Tokumin", serif;
+  --sm-font: "Poppins", sans-serif;
+  --pink: #e5345b;
+}
+body {
+  font-family: var(--sm-font);
+}
+
+.title h2::before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 50px;
+  background-color: var(--pink);
+  left: -20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.bg-primary {
+  background-color: var(--pink) !important;
+}
+
+.logo {
+  width: 35px;
+}
+
+.head {
+  font-family: var(--lg-font);
+  letter-spacing: 2px;
+}
+
+.navbar {
+  box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link:hover {
+  color: var(--pink) !important;
+}
+
+#main {
+  background-image: url(images/banner-img-1.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.heading {
+  font-family: var(--lg-font);
+  font-size: 60px;
+}
+
+.btn2 {
+  border: 1px solid #fff;
+  background-color: #fff;
+  padding: 7px 26px;
+  color: #333;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.btn2:hover {
+  background-color: var(--pink);
+  border-color: var(--pink);
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.active-filter-btn {
+  background-color: var(--pink) !important;
+  color: #fff !important;
+  border-color: var(--pink) !important;
+}
+.filter-button-group .btn:hover {
+  color: #fff !important;
+}
+
+.collection .btn {
+  border: 1px solid #333;
+  background-color: #fff;
+  padding: 5px 20px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.collection .btn:hover {
+  background-color: var(--pink);
+}
+
+.fa-star {
+  color: var(--pink);
+}
+
+.sale {
+  top: 20px;
+  right: 20px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
+
+.special-img span {
+  top: 20px;
+  right: 20px;
+}
+
+.special-img .fa-heart {
+  color: var(--pink);
+}
+
+.add {
+  border: 1px solid #333;
+  color: #333;
+  background-color: #fff;
+  padding: 5px 11px;
+  line-height: 3.3;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.add:hover {
+  background-color: var(--pink);
+  border-color: #333;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+.pic img {
+  transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.pic:hover img {
+  transform: scale(1.2);
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.SALE {
+  background-image: url(images/offer_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.SALE .row {
+  min-height: 65vh;
+}
+
+.discount span {
+  font-size: 30px;
+  padding-left: 5px;
+}
+
+.discount h2 {
+  font-size: 60px;
+  font-family: var(--lg-font);
+}
+
+.discount .btn {
+  border: 1px solid #fff;
+  color: #333;
+  background-color: #fff;
+  padding: 6px 29px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.discount .btn:hover {
+  color: var(--pink);
+}
+
+.card .btn {
+  background-color: transparent;
+  border: 1px solid #333;
+  color: #333;
+  padding: 6px 24px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.card p {
+  line-height: 1.6;
+}
+
+.card h4 {
+  line-height: 1.5;
+}
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap");
+
+:root {
+  --lg-font: "Kaisei Tokumin", serif;
+  --sm-font: "Poppins", sans-serif;
+  --pink: #e5345b;
+}
+body {
+  font-family: var(--sm-font);
+}
+
+.bg-primary {
+  background-color: var(--pink) !important;
+}
+
+.logo {
+  width: 35px;
+}
+
+.head {
+  font-family: var(--lg-font);
+  letter-spacing: 2px;
+}
+
+.navbar {
+  box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link:hover {
+  color: var(--pink) !important;
+}
+
+#main {
+  background-image: url(images/banner-img-1.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.heading {
+  font-family: var(--lg-font);
+  font-size: 60px;
+}
+
+.btn2 {
+  border: 1px solid #fff;
+  background-color: #fff;
+  padding: 7px 26px;
+  color: #333;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.btn2:hover {
+  background-color: var(--pink);
+  border-color: var(--pink);
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.active-filter-btn {
+  background-color: var(--pink) !important;
+  color: #fff !important;
+  border-color: var(--pink) !important;
+}
+.filter-button-group .btn:hover {
+  color: #fff !important;
+}
+
+.collection .btn {
+  border: 1px solid #333;
+  background-color: #fff;
+  padding: 5px 20px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.collection .btn:hover {
+  background-color: var(--pink);
+}
+
+.fa-star {
+  color: var(--pink);
+}
+
+.sale {
+  top: 20px;
+  right: 20px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
+
+.special-img span {
+  top: 20px;
+  right: 20px;
+}
+
+.special-img .fa-heart {
+  color: var(--pink);
+}
+
+.add {
+  border: 1px solid #333;
+  color: #333;
+  background-color: #fff;
+  padding: 5px 11px;
+  line-height: 3.3;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.add:hover {
+  background-color: var(--pink);
+  border-color: #333;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+.pic img {
+  transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.pic:hover img {
+  transform: scale(1.2);
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.SALE {
+  background-image: url(images/offer_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.SALE .row {
+  min-height: 65vh;
+}
+
+.discount span {
+  font-size: 30px;
+  padding-left: 5px;
+}
+
+.discount h2 {
+  font-size: 60px;
+  font-family: var(--lg-font);
+}
+
+.discount .btn {
+  border: 1px solid #fff;
+  color: #333;
+  background-color: #fff;
+  padding: 6px 29px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.discount .btn:hover {
+  color: var(--pink);
+  transition: 0.3s ease-in-out;
+}
+
+.card .btn {
+  background-color: transparent;
+  border: 1px solid #333;
+  color: #333;
+  padding: 6px 24px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.card .btn:hover {
+  transition: 0.3s ease-in-out;
+  color: white;
+  background-color: var(--pink);
+}
+
+.card p {
+  line-height: 1.8;
+}
+
+.card img {
+  border-radius: 5px;
+  box-shadow: 0 3px 9px 2px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover img {
+  cursor: pointer;
+}
+
+#about {
+  background-color: rgba(179, 179, 179, 0.05);
+}
+
+.btn-floating {
+  border-radius: 50px;
+  border: 2px;
+}
